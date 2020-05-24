@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main-container{
+            height: 100vh;
+            padding:100px;
+        }
+        .login-card{
+            height: 400px;
+            
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container-fluid main-container ">
+      <div class="login-card col-lg-4 mx-auto bg-secondary p-0">
+        <div class="bg-primary w-100 m-0 p-2">
+          <h1 class="text-center text-uppercase text-white">Signup page</h1>
+        </div>
+        <div class="w-100 bg-secondary mx-auto p-3">
+          <form method="post" action="http://localhost/save-signup-data" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" >
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">name</label>
+                <input type="text" name="username" class="form-control" id="username" >
+              </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control" id="password">
+            </div>
+            <div class="form-group">
+                <label for="userImage">User Image</label>
+                <input type="file" class="form-control-file" name="userImage" id="userImage">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      
+      </div>
+
+
+
+      </div>
+      
+  </div>
+
+
+
+
+
+
+    <!-- <div class="container-fluid main-container bg-success">
+        <div class="login-card col-lg-4 bg-secondary mx-auto p-3">
+
+        
+        <form method="post" action="http://localhost/save-signup-data" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp">
+              </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" name="password" class="form-control" id="password">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">User Image</label>
+                <input type="file" class="form-control-file" name="userImage" id="userImage">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+    </div> -->
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
